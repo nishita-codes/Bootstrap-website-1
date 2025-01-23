@@ -213,10 +213,10 @@ a{
 
 .more-info-section img{
     position: absolute;
-    top: -10%;
-    left: 0;
+    top: 0;
+    left: 150px;
     max-width: 100%;
-    width: 70%;
+    width: 40%;
     /*transform: scaleX(-1);*/
 }
 
