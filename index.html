@@ -39,18 +39,19 @@
     <div class="container">
         <div class="row mb-5">
             <div class="col-12 col-md-12 col-lg-5 d-flex flex-column justify-content-center align-items-start">
-             <h1  class="text-transform: uppercase " >We Collect High Quality Leads</h1>
+                <h1  class="text-transform: uppercase " >We Collect High Quality Leads</h1>
                 <p class="mt-3 mb-5 para-width text-light-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ad cumque, laudantium possimus voluptate tempore laboriosam optio maxime, rem error dolor a corrupti animi laborum ab. Tenetur illo dolores accusamus.</p>
-          <div class="text-center w-100 text-md-start mb-0">
-                <button class="btn btn-primary" data-bs-toggle="tooltip" data-bs-title="Get In Touch">Contact Us</button>
-          </div>
-        </div>
+                <div class="text-center w-100 text-md-start mb-0">
+                    <button class="btn btn-primary" data-bs-toggle="tooltip" data-bs-title="Get In Touch">Contact Us</button>
+                </div>
+            </div>
+
 
 
 <!--            hero section image-->
-            <div class="col-12 col-md-12 col-lg-6 mt-3 mt-md-0">
-            <div class="text-center text-lg-end">
-                <video src="./images-animated/hero.mp4" autoplay muted loop class="hero-video-section">
+            <div class="col-xl-6 xol-lg-6 col-md-12 col-12 order-0 order-lg-1 hero-image--section ">
+            <div class="text-md-end text-center mb-5  ">
+                <video src="./images-animated/hero.mp4" autoplay muted loop class="hero-video--section">
                     your browser does not support the video tag.
                 </video>
             </div>
@@ -140,7 +141,6 @@
                        <img src="./images-animated/phone.gif" alt="phone"  >
                    </figure>
             </div>
-
             <div class="col-12 col-md-12 col-lg-5 d-flex flex-column justify-content-center align-items-start">
                 <h1  class="text-transform: uppercase " >  Steps to Build a <br> Successful Digital Product</h1>
                 <p class="mt-3 mb-5 para-width text-light-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ad cumque, laudantium possimus voluptate tempore laboriosam optio maxime, rem error dolor a corrupti animi laborum ab. Tenetur illo dolores accusamus.
@@ -536,50 +536,181 @@
 
 
 <!--CONTACT SECTION-->
-<section class="contact-section bg-main bg-color text-white  contact-section">
+<section class="common-section bg-color contact-section text-white">
     <div class="custom-shape-divider-top-1684211116">
         <svg data-name="Layer 1" preserveAspectRatio="none" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
             <path class="shape-fill"
                   d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
         </svg>
     </div>
-    <div class="container text-center common-title fw-bold">
-        <h2 class="common-heading text-white">Contact Us</h2>
-        <hr class="w-25 mx-auto mt-0">
+
+    <div class="container text-center fw-bold common-title ">
+        <h2 class="common-heading text-white ">Contact Us</h2>
+        <hr class="w-25 mx-auto">
     </div>
 
-    <div class="container">
-        <div class="form-section mx-auto mb-5">
-        <form>
-            <div class="mb-3">
-                <div class="row">
-                    <div class="col">
-                        <label class="form-label" for="first-name">First name</label>
-                        <input class="form-control" id="first-name" placeholder="First name"
-                               aria-label="First name" type="text" required>
+    <div class="container ">
+        <div class="form-section  mx-auto">
+            <form>
+                <div class="mb-3">
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-label" for="first-name">First name</label>
+                            <input class="form-control" id="first-name" placeholder="First name"
+                                   aria-label="First name" type="text" required>
+                        </div>
+                        <div class="col">
+                            <label for="last-name" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="last-name" placeholder="Last name"
+                                   aria-label="Last name" required>
+                        </div>
                     </div>
-                    <div class="col">
-                        <label for="last-name" class="form-label">Last name</label>
-                        <input type="text" class="form-control" id="last-name" placeholder="Last name"
-                               aria-label="Last name" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" required
+                           placeholder="Enter your email" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" required
+                              placeholder="Enter your message " rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+</section>
+
+
+<!--contact section end -->
+
+
+<!--footer section-->
+
+<footer class="main-footer-section">
+    <div class="contact-details">
+        <div class="container px-5">
+            <div class="row g-0">
+                <div class="col-lg-4 ">
+                    <div class="contact-div p-5 d-flex flex-column justify-content-center align-items-center">
+                        <div class="icon-div d-flex justify-content-center align-items-center rounded-circle mb-3">
+                            <img src="./images-animated/calling.gif" alt="GIF Image" class="img-fluid">
+                        </div>
+                        <p class="text-white">(+00) 1234 5678</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 ">
+                    <div class="contact-div p-5 d-flex flex-column justify-content-center align-items-center">
+                        <div class="icon-div d-flex justify-content-center align-items-center rounded-circle mb-3">
+                            <!--                            <i class="fa-solid fa-phone"></i>-->
+                            <img src="./images-animated/calling.gif" alt="GIF Image" class="img-fluid">
+                        </div>
+                        <p class="text-white">(+00) 1234 5678</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 ">
+                    <div class="contact-div p-5 d-flex flex-column justify-content-center align-items-center">
+                        <div class="icon-div d-flex justify-content-center align-items-center rounded-circle mb-3">
+                            <img src="./images-animated/calling.gif" alt="GIF Image" class="img-fluid">
+                        </div>
+                        <p class="text-white">(+00) 1234 5678</p>
                     </div>
                 </div>
             </div>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
+        </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+        <div class="footer-section py-5 text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-6 col-6">
+                        <div class="footer-links">
+                            <h4 class="text-white mt-5 mb-3">About</h4>
+                            <ul class="text-light-grey list-unstyled d-flex flex-column gap-2">
+                                <li>Our Story</li>
+                                <li>Our Story</li>
+                                <li>Our Story</li>
+                                <li>Our Story</li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-6">
+                        <div class="footer-links">
+                            <h4 class="text-white mt-5 mb-3">About</h4>
+                            <ul class="text-light-grey list-unstyled d-flex flex-column gap-2">
+                                <li>Our Story</li>
+                                <li>Our Story</li>
+                                <li>Our Story</li>
+                                <li>Our Story</li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-6">
+                        <div class="footer-links">
+                            <h4 class="text-white mt-5 mb-3">About</h4>
+                            <ul class="text-light-grey list-unstyled d-flex flex-column gap-2">
+                                <li>Our Story</li>
+                                <li>Our Story</li>
+                                <li>Our Story</li>
+                                <li>Our Story</li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="footer-links">
+                            <h4 class="mt-5 mb-3 text-white">Subscribe</h4>
+                            <div class="input-group mb-3 w-75">
+                                <input type="text" class="form-control" placeholder="Recipient's username"
+                                       aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <span class="input-group-text btn btn-primary" id="basic-addon2">Subscribe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <hr class="container mx-auto">
+
+            <div class="row">
+                <div class="col-lg-8 col-12 ">
+                    Copyright ©2023 All rights reserved. | This template is made with by <span class="bg-theme"> nishita-cOdes.com</span>
+                </div>
+                <div class="col-md-4 col-12  ">
+                    <div class="d-flex justify-content-center justify-content-lg-end gap-5 mt-lg-0 mt-3">
+                        <a href="https://www.instagram.com/thapatechnical/" target="_blank">
+                            <div class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </a>
+                        <div class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
+                            <!--                            <i class="fa-brands fa-whatsapp"></i>-->
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</section>
-
+</footer>
 
 <!--<script src="./js/bootstrap.bundle.js"></script>-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
